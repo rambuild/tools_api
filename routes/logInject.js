@@ -21,7 +21,6 @@ module.exports = app => {
     // CRUD通用接口
     app.use('/logs/rest/:resource', (req, res, next) => {
         let modelName = require('inflection').classify(req.params.resource)
-        // console.log(modelName)
         req.Model = require(`../db/model/${modelName}`)
         next()
     }, router)

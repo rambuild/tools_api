@@ -5,8 +5,8 @@ mongoose.set('useUnifiedTopology', true)
 mongoose.set('useFindAndModify', false)
 mongoose.set('useCreateIndex', true)
 // { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true }
-mongoose.connect('mongodb://fyh:qwer1236@106.55.157.112:27017/tools_site?authSource=admin')
-// mongoose.connect('mongodb://localhost:27017/tools_site')
+mongoose.connect('mongodb://fyh:123666@124.222.30.36:27017/tools-site?authSource=admin')
+// mongoose.connect('mongodb://localhost:27017/tools-site')
 
 const db = mongoose.connection
 

@@ -1,4 +1,4 @@
-const mongoose = require('../index')
+const mongoose = require('../../index')
 
 const schema = mongoose.Schema({
     visitedTime: { type: String },
